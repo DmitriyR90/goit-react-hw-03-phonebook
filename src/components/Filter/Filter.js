@@ -12,6 +12,7 @@ export const Filter = ({ value, onChange }) => {
           name="filter"
           value={value}
           onChange={onChange}
+          autoComplete="off"
         ></FilterInput>
       </Formik>
     </FilterWrap>
